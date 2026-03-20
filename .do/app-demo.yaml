@@ -1,0 +1,74 @@
+name: llm-comparator
+region: nyc
+
+# One-click deploy template is kept in sync at .do/deploy.template.yaml —
+# if you update this file, mirror the changes there (only difference is the
+# top-level `spec:` wrapper required by the Deploy to DigitalOcean button).
+#
+# App-level env vars: shared by all components
+envs:
+  - key: MODEL_1_ENDPOINT
+    scope: RUN_AND_BUILD_TIME
+    value: "https://inference.do-ai.run"
+  - key: MODEL_1_NAME
+    scope: RUN_AND_BUILD_TIME
+    value: "NemoTron 3 120B"
+  - key: MODEL_1_MODEL_ID
+    scope: RUN_AND_BUILD_TIME
+    value: "nvidia-nemotron-3-super-120b"
+  - key: MODEL_2_ENDPOINT
+    scope: RUN_AND_BUILD_TIME
+    value: "https://inference.do-ai.run"
+  - key: MODEL_2_NAME
+    scope: RUN_AND_BUILD_TIME
+    value: "GPT-OSS 120B"
+  - key: MODEL_2_MODEL_ID
+    scope: RUN_AND_BUILD_TIME
+    value: "openai-gpt-oss-120b"
+  - key: MODEL_3_ENDPOINT
+    scope: RUN_AND_BUILD_TIME
+    value: "https://inference.do-ai.run"
+  - key: MODEL_3_NAME
+    scope: RUN_AND_BUILD_TIME
+    value: "Llama 3 70B"
+  - key: MODEL_3_MODEL_ID
+    scope: RUN_AND_BUILD_TIME
+    value: "llama3.3-70b-instruct"
+  - key: PREFERENCE_MODEL_ENDPOINT
+    scope: RUN_AND_BUILD_TIME
+    value: "https://inference.do-ai.run"
+  - key: PREFERENCE_MODEL_NAME
+    scope: RUN_AND_BUILD_TIME
+    value: "Claude 4.6 Sonnet"
+  - key: PREFERENCE_MODEL_MODEL_ID
+    scope: RUN_AND_BUILD_TIME
+    value: "anthropic-claude-4.6-sonnet"
+  - key: DATABASE_URL
+    scope: RUN_AND_BUILD_TIME
+    value: "sqlite+aiosqlite:////tmp/llm_comparator.db"
+
+  - key: DEMO_MODE
+    scope: RUN_AND_BUILD_TIME
+    value: "true"
+  - key: DEMO_SESSION_TTL_HOURS
+    scope: RUN_AND_BUILD_TIME
+    value: "24"
+
+# 1. THE FASTAPI BACKEND
+services:
+  - name: llm-comparator-backend
+    run_command: uvicorn app.main:app --host 0.0.0.0 --port 8080
+    http_port: 8080
+    instance_size_slug: basic-s
+    instance_count: 2
+    routes:
+      - path: /api
+
+# 2. THE VITE FRONTEND
+static_sites:
+  - name: llm-comparator
+    source_dir: frontend
+    build_command: npm install && npm run build
+    output_dir: dist
+    routes:
+      - path: /

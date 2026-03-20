@@ -1,0 +1,100 @@
+{"prompt":"Explain quantum entanglement to a 10-year-old in exactly 5 sentences."}
+{"prompt":"Write a Python function that returns all prime numbers up to n using the Sieve of Eratosthenes."}
+{"prompt":"A farmer has 17 sheep. All but 9 die. How many sheep are left?"}
+{"prompt":"What are the main differences between TCP and UDP? When would you choose one over the other?"}
+{"prompt":"Write a haiku about debugging code at 2am."}
+{"prompt":"Explain the difference between a stack and a queue. Give a real-world analogy for each."}
+{"prompt":"What would happen if the Moon suddenly disappeared? Describe the effects on Earth."}
+{"prompt":"Write a short, professional email declining a meeting request due to a scheduling conflict. Keep it under 80 words."}
+{"prompt":"Describe the concept of entropy in thermodynamics in plain English."}
+{"prompt":"What is the trolley problem, and why do philosophers find it interesting?"}
+{"prompt":"How does HTTPS work? Explain the TLS handshake in simple terms."}
+{"prompt":"Give me three creative names for a coffee shop with a space theme, and briefly explain each."}
+{"prompt":"What is the difference between machine learning and deep learning?"}
+{"prompt":"Write a recursive function in Python to compute the nth Fibonacci number. Then rewrite it iteratively."}
+{"prompt":"Explain why the sky is blue using only words a 6-year-old would understand."}
+{"prompt":"What are the pros and cons of using a relational database versus a document store like MongoDB?"}
+{"prompt":"Summarise the plot of Hamlet in exactly three sentences."}
+{"prompt":"What is the CAP theorem and why does it matter for distributed systems?"}
+{"prompt":"Write a limerick about a software engineer who hates meetings."}
+{"prompt":"How does the immune system distinguish between self and non-self?"}
+{"prompt":"Explain the difference between correlation and causation. Give a concrete example of each."}
+{"prompt":"What is a closure in JavaScript? Write a short example that demonstrates one."}
+{"prompt":"If you could add one amendment to the US Constitution, what would it be and why?"}
+{"prompt":"Describe the water cycle without using any scientific jargon."}
+{"prompt":"What is the difference between an abstract class and an interface in object-oriented programming?"}
+{"prompt":"Write a one-paragraph horror story that takes place entirely in an elevator."}
+{"prompt":"What causes inflation, and what are the main tools central banks use to control it?"}
+{"prompt":"Explain the concept of a pointer in C to someone who only knows Python."}
+{"prompt":"What is the Monty Hall problem? Walk me through the solution step by step."}
+{"prompt":"Write a bash one-liner that finds all files larger than 100MB in the current directory tree."}
+{"prompt":"What is the difference between supervised, unsupervised, and reinforcement learning?"}
+{"prompt":"Explain how GPS works. How does a phone know its exact location?"}
+{"prompt":"What is memoisation and when should you use it? Illustrate with a code example."}
+{"prompt":"Write a product description for an imaginary smartwatch designed for deep-sea divers."}
+{"prompt":"What is the difference between a mutex and a semaphore?"}
+{"prompt":"Explain the French Revolution in five bullet points."}
+{"prompt":"What is tail recursion and why do some languages optimise for it?"}
+{"prompt":"Write a SQL query that finds the second highest salary in an employee table."}
+{"prompt":"What is dark matter, and why do scientists think it exists even though we can't see it?"}
+{"prompt":"Explain the concept of opportunity cost using a concrete everyday example."}
+{"prompt":"What is the difference between parallelism and concurrency?"}
+{"prompt":"Write a two-sentence pitch for a startup that uses AI to reduce food waste."}
+{"prompt":"How does a compiler differ from an interpreter? Give an example of a language that uses each."}
+{"prompt":"What is CRISPR and how does it work in simple terms?"}
+{"prompt":"Describe the architecture of a typical REST API."}
+{"prompt":"Write a persuasive argument for why everyone should learn to cook."}
+{"prompt":"What is the difference between a hash map and a binary search tree? When would you prefer one?"}
+{"prompt":"Explain how vaccines work to someone who is sceptical about them."}
+{"prompt":"What is the PageRank algorithm and how did it help make Google successful?"}
+{"prompt":"Write a function in any language that checks whether a string is a palindrome."}
+{"prompt":"What is the Drake equation and what does it tell us?"}
+{"prompt":"Explain the concept of compound interest. Why did Einstein allegedly call it the eighth wonder of the world?"}
+{"prompt":"What is Docker and why has it become so popular among developers?"}
+{"prompt":"Write a short scene in which two astronauts disagree about whether to abort a mission."}
+{"prompt":"What is the difference between accuracy, precision, and recall in a machine learning classifier?"}
+{"prompt":"Explain how a transistor works. Why is it the building block of modern computers?"}
+{"prompt":"What are the SOLID principles in software engineering? Give a one-sentence description of each."}
+{"prompt":"Write a regex that matches a valid email address and explain each part of the pattern."}
+{"prompt":"What is the Turing test and has any system ever passed it?"}
+{"prompt":"Describe three practical applications of graph theory in everyday technology."}
+{"prompt":"What is the difference between a process and a thread in an operating system?"}
+{"prompt":"Write a short poem about the passage of time, written from the perspective of a tree."}
+{"prompt":"How does a neural network learn? Explain backpropagation without using any equations."}
+{"prompt":"What is the observer effect in quantum mechanics, and is it the same as the uncertainty principle?"}
+{"prompt":"Design a simple rate limiter for an API. What data structures would you use?"}
+{"prompt":"What is the difference between UTF-8 and UTF-16? When does the choice matter?"}
+{"prompt":"Write a cover letter opening paragraph for a software engineer applying to a climate-tech startup."}
+{"prompt":"What is a Bloom filter and what problem does it solve?"}
+{"prompt":"Explain how noise-cancelling headphones work."}
+{"prompt":"What is the difference between ethical hacking and malicious hacking?"}
+{"prompt":"Write a function that takes a list of integers and returns them sorted without using any built-in sort function."}
+{"prompt":"What caused the 2008 financial crisis in plain English?"}
+{"prompt":"What is the Byzantine Generals Problem and how does it relate to blockchain?"}
+{"prompt":"Describe the concept of a monad in functional programming without using category theory terms."}
+{"prompt":"Write a short dialogue between a pessimist and an optimist discussing artificial intelligence."}
+{"prompt":"What is latency versus throughput? Give an analogy that makes the distinction clear."}
+{"prompt":"How does Spotify's recommendation system decide what music to suggest?"}
+{"prompt":"Explain the concept of overfitting in machine learning. How do you prevent it?"}
+{"prompt":"What is the difference between a liberal arts education and a vocational education? What are the trade-offs?"}
+{"prompt":"Write a function in Python that flattens a nested list of arbitrary depth."}
+{"prompt":"What is the Fermi paradox and what are the most compelling proposed resolutions?"}
+{"prompt":"Explain how public-key cryptography works. Why can you share your public key freely?"}
+{"prompt":"What are the main criticisms of utilitarianism as an ethical framework?"}
+{"prompt":"Design a URL shortener like bit.ly. What are the core components?"}
+{"prompt":"What is the difference between supervised fine-tuning and RLHF in the context of large language models?"}
+{"prompt":"Write three taglines for a fictional airline that prides itself on extreme punctuality."}
+{"prompt":"Explain why sorting algorithms matter when hardware keeps getting faster."}
+{"prompt":"What is the difference between the mean, median, and mode? When is each most useful?"}
+{"prompt":"How does a search engine index the web? Give a high-level overview of crawling, indexing, and ranking."}
+{"prompt":"Write a one-paragraph description of a dystopian world where all art is generated by AI."}
+{"prompt":"What is Amdahl's Law and what does it imply about parallel computing?"}
+{"prompt":"Explain the difference between IPv4 and IPv6. Why has adoption of IPv6 been slow?"}
+{"prompt":"What is a race condition? Write a minimal example that demonstrates one."}
+{"prompt":"Describe the plot of a thriller where the villain is a rogue recommendation algorithm."}
+{"prompt":"What are the main differences between Python's list, tuple, and set?"}
+{"prompt":"How does the human brain store long-term memories? What do we actually know versus what is still a mystery?"}
+{"prompt":"Write a gentle but honest performance review for an employee who is technically brilliant but terrible in meetings."}
+{"prompt":"What is the difference between a language model and a chatbot?"}
+{"prompt":"Explain the concept of technical debt. When is it acceptable to take on more of it?"}
+{"prompt":"Write a two-minute speech encouraging high school students to study computer science."}
