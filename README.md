@@ -12,11 +12,15 @@ Compare outputs from three LLM inference endpoints side-by-side, with real-time 
 - Latency figures are end-to-end (client → server → model → client) and include network overhead
 - Paginated run history with scored indicator; JSONL export and bulk delete
 
+![](./docs/prompt.png)
+
 **Analyze page**
 - Upload a `.jsonl` dataset (prompt-only, prompt+responses, or fully annotated)
 - Automatically generate responses and/or score them with a preference model
 - Select runs to filter charts: win-rate pie, avg helpfulness score, avg tokens, avg TTFT, avg tok/s
-- Per-run results table with full detail panel; JSONL export and bulk delete
+- Per-run results table with full detail panel; JSONL export and bulk deletea
+
+![](./docs/analyze.png)
 
 **Demo mode**
 - Set `DEMO_MODE=true` to show an API key input in the header
